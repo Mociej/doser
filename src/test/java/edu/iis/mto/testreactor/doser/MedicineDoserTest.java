@@ -27,6 +27,18 @@ class MedicineDoserTest {
     void catchErrorIfMedicinePackageIsNull() {
         fail("unimplemented");
     }
+    @Test
+    void catchErrorIfInfuserIsNull() {
+        fail("unimplemented");
+    }
+    @Test
+    void catchErrorIfDosageLogIsNull() {
+        fail("unimplemented");
+    }
+    @Test
+    void catchErrorIfClockIsNull() {
+        fail("unimplemented");
+    }
 
     @Test
     void catchNullPointerExceptionWhenMedicineNullInAddMethod() {
@@ -44,5 +56,11 @@ class MedicineDoserTest {
     void sucessWhenDoseLogEnd() {
         fail("unimplemented");
     }
+
+    @Test
+    void falseWhenMedicineNotEquals() {
+        fail("unimplemented");
+    }
+
 
 }
