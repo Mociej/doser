@@ -19,13 +19,30 @@ class MedicineDoserTest {
     void catchExcpetionWhenDosageLogDifuserError() {
         fail("unimplemented");
     }
+    @Test
+    void catchInsufficientMedicineExceptionWhenRecipeNumberGreaterThanMedicinePackageCapacity() {
+        fail("unimplemented");
+    }
+    @Test
+    void catchErrorIfMedicinePackageIsNull() {
+        fail("unimplemented");
+    }
 
     @Test
-    void testIfRecipeNumberLessThanZero() {
+    void catchNullPointerExceptionWhenMedicineNullInAddMethod() {
         fail("unimplemented");
     }
     @Test
-    void testIfRecipeNumberEqualsZero() {
+    void sucessIfRecipeNumberEqualsZero() {
         fail("unimplemented");
     }
+    @Test
+    void sucessIfRecipeNumberLessThanZero() {
+        fail("unimplemented");
+    }
+    @Test
+    void sucessWhenDoseLogEnd() {
+        fail("unimplemented");
+    }
+
 }
